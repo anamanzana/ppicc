@@ -20,7 +20,7 @@
   "main": "cypress.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anamanzana/proyectoespecial.git"
+    "url": "git+https://github.com/anamanzana/ppicc.git"
   },
   "homepage": "https://github.com/anamanzana/ppicc#readme",
   "dependencies": {
