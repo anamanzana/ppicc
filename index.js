@@ -1,6 +1,15 @@
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 3000
+const Koa = require('koa');
+
+const app = new Koa();
+
+app.use(async ctx => {
+  ctx.body = 'Hello, World!';
+});
+
+app.listen(3000, () => {
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
@@ -9,4 +18,5 @@ express()
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-app.listen(3000);
+  console.log('Server running on port 3000');
+});
