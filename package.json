@@ -16,6 +16,12 @@
   "bugs": {
     "url": "https://github.com/anamanzana/ppicc/issues"
   },
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)",
+  "main": "cypress.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anamanzana/proyectoespecial.git"
+  },
   "homepage": "https://github.com/anamanzana/ppicc#readme",
   "dependencies": {
     "koa": "^2.13.4"
