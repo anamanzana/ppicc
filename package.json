@@ -1,8 +1,8 @@
 {
-  "name": "ppicc",
+  "name": "hello",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/ac5b0a8c-3277-49a3-90fb-4723c85ae2b6/deploy-status)](https://app.netlify.com/sites/thunderous-travesseiro-794211/deploys)",
+  "main": "cypress.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,14 +16,14 @@
   "bugs": {
     "url": "https://github.com/anamanzana/ppicc/issues"
   },
-  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/ac5b0a8c-3277-49a3-90fb-4723c85ae2b6/deploy-status)](https://app.netlify.com/sites/thunderous-travesseiro-794211/deploys)",
-  "main": "cypress.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anamanzana/ppicc.git"
-  },
   "homepage": "https://github.com/anamanzana/ppicc#readme",
   "dependencies": {
-    "koa": "^2.13.4"
+    "express": "^4.18.1",
+    "koa": "^2.13.4",
+    "netlify": "^11.0.2",
+    "netlify-cli": "^2.12.0",
+    "package-json": "^8.1.0",
+    "update": "^0.7.4",
+    "update-notifier": "^6.0.2"
   }
 }
